@@ -37,9 +37,10 @@ class Client
     }
 
     /**
+     * @todo protected
      */
-    protected function request(string $method, string $url, array $options = []): ResponseInterface
+    public function request(string $url, array $options = []): ResponseInterface
     {
-        return $this->getRpcClient()->request($method, $url, $options);
+        return $this->getRpcClient()->request('POST', $url, $options);
     }
 }
