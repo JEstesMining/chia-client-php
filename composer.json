@@ -26,7 +26,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.5",
-        "symfony/http-client": "^5.2"
+        "symfony/http-client": "^5.2",
+        "symfony/yaml": "5.4.x-dev"
     },
     "autoload": {
         "psr-4": { "JEstesMining\\Component\\Chia\\": "src/" }
