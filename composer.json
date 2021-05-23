@@ -1,5 +1,34 @@
 {
     "name": "jestesmining/chia-client-php",
+    "type": "library",
+    "description": "Provides support for interacting with chia nodes via RPC interface",
+    "keywords": ["chia","chia-blockchain"],
+    "homepage": "https://github.com/JEstesMining/chia-client-php",
     "license": "MIT",
-    "require": {}
+    "authors": [
+        {
+            "name": "Joshua Estes"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/JEstesMining/chia-client-php/issues",
+        "forum": "https://github.com/JEstesMining/chia-client-php/discussions",
+        "wiki": "https://github.com/JEstesMining/chia-client-php/wiki",
+        "source": "https://github.com/JEstesMining/chia-client-php",
+        "docs": "https://github.com/JEstesMining/chia-client-php"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/JoshuaEstes"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/http-client": "^5.2"
+    },
+    "autoload": {
+        "psr-4": { "JEstesMining\\Component\\Chia\\": "src/" }
+    }
 }
