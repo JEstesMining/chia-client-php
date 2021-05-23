@@ -5,7 +5,7 @@ This library allows you to communicate with a Chia RPC server.
 
 # Installation
 
-`composer require jestesmining/chia-client-php`
+`composer require jestesmining/chia-client-php:0.1.x-dev`
 
 
 # Usage
